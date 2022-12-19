@@ -13,6 +13,14 @@ console.log(c); // c is not changed. We've to change separately
 c = a + b;
 console.log(c); // c is changed now
 
+//Incrementing and Decrementing
+let num = 5;
+console.log(num);
+num += 5; // num = num + 5
+console.log(num);
+num -= 5; //num = num - 5
+console.log(num);
+
 //Incrementing and Decrementing by 1
 let score = 5;
 console.log(score++); //postfix increment returns value before incrementing by 1
@@ -21,7 +29,7 @@ console.log(++score); //prefix increment returns value after incrementing by 1
 console.log(score);
 
 //Constants
-const year2 = 2022;
+const year2 = 2022; //Cannot reassign
 //year2 = 2023 // error
 console.log(year2);
 
